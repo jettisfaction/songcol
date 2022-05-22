@@ -46,6 +46,7 @@
         text-align: right;
         border: 5px solid rgba(255,255,255,0.5);
         margin: 5px;
+        position: relative;
       }
       .cast-graphic-placement{
         display: flex;
@@ -56,6 +57,17 @@
         border-radius: 30px;
         background: rgba(0,0,0,0.8);
         font-size: 2.6em;
+      }
+      .cast-graphic-player {
+        border-radius: 5px; padding: 5px;
+        background: rgba(0,0,0,0.8);
+        font-size: 1em;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .cast-graphic-finalist {
+        color: #FFD541;
       }
     </style>
   </head>
@@ -71,20 +83,21 @@
       <h1><strong>Season 5</strong> - Mario Party</h1>
       <h2>
         For our fifth season we only allowed group artists and they were divided into four teams - one for each of the judges.
-        Our finalists for Season 5 were: <strong>BTS, Wolf Alice, and Girls Generation</strong> played by <strong>Abby, Alexr, and Jacob</strong>.
+        Our finalists for Season 5 were: <strong class="cast-graphic-finalist">Paramore (winner), BTS, Wolf Alice, and Girls Generation</strong> played by <strong class="cast-graphic-finalist">Leah (winner), Abby, Alexr, and Jacob</strong>.
       </h2>
       <div class="text-center">
-        <div class="cast-graphic" style="background-image: url('https://cdn.discordapp.com/attachments/884838071282044928/951286279067271188/image0.jpg');">
+        <div class="cast-graphic cast-graphic-finalist" style="background-image: url('https://cdn.discordapp.com/attachments/884838071282044928/951286279067271188/image0.jpg');">
           <span class="cast-graphic-placement">
             1
           </span>
+          <span class="cast-graphic-player">Leah</span>
         </div>
-        <div class="cast-graphic" style="background-image: url('https://cdn.discordapp.com/attachments/884838071282044928/951287415463608380/image0.jpg');">
+        <div class="cast-graphic cast-graphic-finalist" style="background-image: url('https://cdn.discordapp.com/attachments/884838071282044928/951287415463608380/image0.jpg');">
           <span class="cast-graphic-placement">
             2
           </span>
         </div>
-        <div class="cast-graphic" style="background-image: url('https://cdn.discordapp.com/attachments/884838071282044928/951289797450805248/image0.jpg');">
+        <div class="cast-graphic cast-graphic-finalist" style="background-image: url('https://cdn.discordapp.com/attachments/884838071282044928/951289797450805248/image0.jpg');">
           <span class="cast-graphic-placement">
             3
           </span>
@@ -168,6 +181,7 @@
           <span class="cast-graphic-placement">
             19
           </span>
+          <span class="cast-graphic-player">Jett</span>
         </div>
         <div class="cast-graphic" style="background-image: url('https://cdn.discordapp.com/attachments/884838071282044928/951287735031824444/image0.jpg');">
           <span class="cast-graphic-placement">
